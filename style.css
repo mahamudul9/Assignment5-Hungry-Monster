@@ -1,0 +1,62 @@
+.navbar{
+    margin-left: 30%;
+}
+.food-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;    
+}
+.food-items input{
+    display: flex;
+    align-items: center;
+    padding:0 40%;
+}
+.food-items button{
+    background-color:rgb(54, 159, 200);
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius:0 0.5em 0.5em 0;
+}
+#detail{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+.menus img{
+    width: 300px;
+    border-radius: 10px;
+}
+.menus{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+}
+.menus:hover{
+    cursor: pointer;
+}
+#ingredients{
+ width: 500px;
+ background-color: rgb(197, 209, 197);
+ color: whitegrey;
+ margin:20px auto;
+ border-radius: 10px;
+ 
+}
+#ingredients img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;  
+}
+.noResultsDiv{
+  width: 300px;
+  background-color: rgb(255, 94, 0);
+  color: white;
+  border: 5px solid black;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 500px;
+}
